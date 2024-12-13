@@ -14,12 +14,12 @@ class BookSeeder extends Seeder
     public function run(): void
     {
         Book::create([
-            "title" => "Soekarno: Sebuah Biografi",
-            "author" => "Adji Nugroho S.ip",
-            "year" => 2019,
-            "publisher" => "Roemah Soekarno",
-            "city" => "Yogyakarta",
-            "cover" => "public/cover.jpg",
+            "title" => "5 cm",
+            "author" => "karya Donny Dhirgantoro",
+            "year" => 2005,
+            "publisher" => "Grasindo",
+            "city" => "Jakarta",
+            "cover" => "public/5cm.jpg",
             "bookshelf_id" => 5
         ]);
     }

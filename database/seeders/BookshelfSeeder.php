@@ -21,6 +21,6 @@ class BookshelfSeeder extends Seeder
             ['code' =>'BKS004', 'name'=> 'Komik']
         ]);
 
-        Bookshelf::create(['code' => 'BKS005','name' => 'Biografi']);
+        Bookshelf::create(['code' => 'BKS005','name' => 'Novel']);
     }
 }
