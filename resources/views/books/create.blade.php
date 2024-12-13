@@ -44,9 +44,9 @@
                             <x-input-error class="mt-2" :messages="$errors->get('city')" />
                         </div>
                         <div class="max-w-xl">
-                            <x-input-label for="bookshelf" value="Kategori RakBuku" />
+                            <x-input-label for="bookshelf" value="Kategori Rak Buku" />
                             <x-select-input id="bookshelf" name="bookshelf_id" class="mt-1 block w-full" required>
-                                <option value="">Open this select menu</option>
+                                <option value="">Pilih Rak Buku</option>
                                 @foreach ($bookshelves as $key => $value)
                                     @if (old('bookshelf_id') == $key)
                                         <option value="{{ $key }}" selected>{{ $value }}</option>

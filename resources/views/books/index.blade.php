@@ -29,7 +29,7 @@
                                 <th scope="col">Kota</th>
                                 <th scope="col">Cover</th>
                                 <th scope="col">Kode Rak</th>
-                                <th scope="col">Aksi</th>
+                                <th scope="col">Actions</th>
                             </tr>
                         </x-slot>
                         @foreach ($books as $book)
